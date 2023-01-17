@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,300&display=swap");
+
+.containeer {
+}
+
+.containeer h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 35px;
+  margin-bottom: 25px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.containeer .services {
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.containeer .services .card {
+  width: 500px;
+  text-align: center;
+  background: #74b2f0;
+  padding: 20px 15px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.containeer .services .card:hover {
+  background: #17bebb;
+}
+
+.containeer .services .card .content {
+  transition: 0.3s;
+}
+
+.containeer .services .card:hover .content {
+  transform: scale(1.07);
+}
+
+.containeer .services .card .content .icon {
+  padding: 5px 0;
+  color: #000;
+}
+
+.containeer .services .card .content .icon i {
+  font-size: 40px;
+}
+
+.containeer .services .card:hover .content .title {
+  color: white;
+}
+
+.containeer .services .card .content .title {
+  padding: 5px 0;
+  font-size: 24px;
+  font-weight: 500;
+  color: ;
+  transition: 0.3s;
+}
